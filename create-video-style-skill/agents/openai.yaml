@@ -1,0 +1,4 @@
+interface:
+  display_name: "Video Style Skill Creator"
+  short_description: "Turn video voices into reusable copywriting skills"
+  default_prompt: "Use $create-video-style-skill to learn a creator's video style from a URL and create a reusable copywriting skill."

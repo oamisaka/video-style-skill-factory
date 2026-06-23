@@ -1,0 +1,4 @@
+interface:
+  display_name: "Yingshi Jufeng Copywriter"
+  short_description: "Research and write Chinese video scripts in a captured creator style"
+  default_prompt: "Use $yingshi-jufeng-copywriter to research this topic or question and write a Chinese video script in this captured style."
