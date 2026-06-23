@@ -89,6 +89,17 @@ Use $create-video-style-skill to learn a creator's video style from this URL and
 
 `examples/outputs/benda-black-flag-600-yingshi-jufeng-script.md` 是这个示例 Skill 生成的一篇展示文案。
 
+这个示例的流程是：
+
+1. 使用 `create-video-style-skill` 抓取并分析一组公开视频字幕。
+2. 从这些素材中提炼出“影像科技纪实类创作者”的风格卡。
+3. 生成一个独立的 `yingshi-jufeng-copywriter` 风格 Skill。
+4. 再用这个风格 Skill，根据“奔达黑旗600科普视频，可以对比黑旗500或其他国产机车”这个方向，先研究资料，再生成完整口播文案。
+
+这个示例能帮助你理解母 Skill 的目标：它不是只生成一篇文案，而是先生成一个可迁移的“风格专属 Skill”，再由这个风格 Skill 去写新的选题。
+
+注意：`yingshi-jufeng-copywriter` 只是示例结果，用于展示“一个风格一个 Skill”的产物形态。它不包含原始字幕、原始音频或完整 transcript，也不代表与任何创作者、频道或品牌存在关联、授权或背书。
+
 示例文案中的时间敏感信息，例如价格、发售状态、参数和技术规格，在正式发布前都应该重新核对最新来源。
 
 ## 安全与版权边界
