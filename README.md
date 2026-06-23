@@ -1,6 +1,6 @@
 # Video Style Skill Factory
 
-Create portable Codex copywriting skills from video sources.
+Create portable Codex copywriting skills from video or creator styles.
 
 This repository contains a parent skill, `create-video-style-skill`, that helps Codex learn the script style of a reference video or creator, summarize the transferable writing pattern, and generate one independent research-first copywriting skill per style.
 
